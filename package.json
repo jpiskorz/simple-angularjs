@@ -1,0 +1,19 @@
+{
+  "name": "simple-angularjs",
+  "version": "1.0.0",
+  "author": "Jakub Piskorz",
+  "description": "Simple angularjs repository with rest consume",
+  "scripts": {
+    "server": "node node_modules/mock-rest-api/bin/index.js",
+    "start": "http-server app"
+  },
+  "dependencies": {
+    "http-server": "^0.9.0"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-angular-templatecache": "^2.0.0",
+    "mock-rest-api": "^1.0.0"
+  }
+}
